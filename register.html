@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f3561dfdf.js" crossorigin="anonymous"></script>
+    <title>Register</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Register<span class="visually-hidden">(current)</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav ml-auto ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <header class="site-init">   
+          <!-- <h1>Register Here:</h1> -->
+    </header>
+    <main class="register-main">
+      <div class="register-container">
+        <legend class="register-legend">Register:</legend>
+        <label><i class="fa-regular fa-user"></i></label>
+        <input type="text" id="txtUserName" placeholder="Enter your username">
+        <label><i class="fa-solid fa-at"></i></label>
+        <input type="email" id="txtEmail" placeholder="Enter your email">
+        <label><i class="fa-solid fa-calendar-days"></i></label>
+        <input type="number" id="txtAge" placeholder="Enter your age">
+        <label><i class="fa-solid fa-lock-open"></i></label>
+        <input type="password" id="txtPassword" placeholder="Enter your password">
+        <p class="alert-error hide" id="alertError">Password must be at least 6 characters</p>
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="txtPayment">
+          <option selected>Payment method</option>
+          <option value="cash">cash</option>
+          <option value="card">card</option>
+        </select>
+        <input type="color" id="txtColor">
+        <button class="btn btn-dark" id="btn-register">Register</button>
+      </div>        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+    "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="/scripts/storeManager.js"></script>
+    <script src="/scripts/app.js"></script>
+</body>
+</html>

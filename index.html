@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav ml-auto ms-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login</a>
+                    <div class="dropdown-menu">
+                      <label>Username:</label>
+                      <input type="username" class="dropdown-item" id="txtEmail">
+                      <label>Password:</label>
+                      <input class="dropdown-item" type="password" id="txtPassword">
+                      <p class="alert-error hide" id="alertError">Password must be at least 6 characters</p>
+                      <button class="btn btn-dark" id="btnLogin">Login</button>
+                      <a href="/register.html" class="nu-btn">Not a user?</a>
+                      <!-- <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <header class="site-init">   
+          <h1></h1>
+    </header>
+    <main>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+    "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="/scripts/storeManager.js"></script>
+    <script src="/scripts/app.js"></script> 
+    <script src="/scripts/login.js"></script>
+</body>
+</html>

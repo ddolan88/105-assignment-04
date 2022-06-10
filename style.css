@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link{
+    margin-right: 25px;
+}
+
+main{
+    display: flex;
+}
+
+.dropdown-menu{
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+.dropdown-menu input{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.dropdown-menu button{
+    margin-top: 10px;
+}
+
+.register-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.register-container input{
+    width: 300px;
+}
+
+.register-legend{
+    border-bottom: 2px solid black;
+}
+
+.register-label{
+    box-shadow: 0 5px 10px black;
+}
+
+.register-container label{
+    margin-top: 5px;
+}
+
+#txtColor{
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+    width: 100px;
+}
+
+#btn-register{
+    margin-top: 10px;
+} 
+
+.nu-btn{
+    padding-left: 10px;
+}
+
+.input-error{
+    border:3px solid red;
+}
+
+.alert-error{
+    border: 3px solid red;
+    color: black;
+    background-color: red;
+}
+
+.form-select{
+    width: 300px;
+    margin-top: 15px;
+}
+
+.hide{
+    display: none;
+}
